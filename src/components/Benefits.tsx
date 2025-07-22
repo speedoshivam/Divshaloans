@@ -70,7 +70,7 @@ const Benefits = () => {
     {
       icon: DollarSign,
       title: 'Competitive Rates',
-      description: 'Industry-leading rates starting from 4.99% APR for qualified borrowers.',
+      description: 'Industry-leading rates starting from 9.99% per annum for qualified borrowers.',
       color: 'from-emerald-500 to-emerald-600'
     },
     {
@@ -102,7 +102,7 @@ const Benefits = () => {
   const stats = [
     { value: counters.customers, label: 'Happy Customers', suffix: '+' },
     { value: counters.approved, label: 'Approval Rate', suffix: '%' },
-    { value: counters.funded, label: 'Million Funded', suffix: 'M+' },
+    { value: counters.funded, label: 'Crore Funded', suffix: 'Cr+' },
     { value: counters.satisfaction, label: 'Satisfaction Rate', suffix: '%' }
   ];
 
@@ -161,7 +161,7 @@ const Benefits = () => {
             {stats.map((stat, index) => (
               <div key={index} className="text-center">
                 <div className="text-4xl lg:text-5xl font-bold text-white mb-2">
-                  {stat.value.toLocaleString()}{stat.suffix}
+                  {stat.value.toLocaleString('en-IN')}{stat.suffix}
                 </div>
                 <div className="text-gray-300 font-medium">
                   {stat.label}

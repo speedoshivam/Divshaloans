@@ -32,21 +32,19 @@ const Contact = () => {
     {
       icon: Phone,
       title: 'Phone',
-      details: ['1-800-LENDFLOW', '(1-800-536-3356)'],
-      details: ['1-800-DIVSHALOANS', '(1-800-348-7425)'],
-      subtext: 'Mon-Fri 8AM-8PM EST'
+      details: ['1800-123-456', '(+91-22-1234-5678)'],
+      subtext: 'Mon-Fri 9AM-6PM IST'
     },
     {
       icon: Mail,
       title: 'Email',
-      details: ['info@lendflow.com', 'support@lendflow.com'],
       details: ['info@divshaloans.com', 'support@divshaloans.com'],
       subtext: 'We respond within 2 hours'
     },
     {
       icon: MapPin,
       title: 'Address',
-      details: ['123 Financial Street', 'Suite 100, New York, NY 10001'],
+      details: ['123 Finance Avenue', 'Mumbai, MH 400001'],
       subtext: 'Visit us by appointment'
     },
     {
@@ -163,7 +161,7 @@ const Contact = () => {
                     value={formData.amount}
                     onChange={handleChange}
                     className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200"
-                    placeholder="$25,000"
+                    placeholder="₹5,00,000"
                   />
                 </div>
 

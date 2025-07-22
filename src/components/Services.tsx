@@ -15,50 +15,50 @@ const Services = () => {
     {
       icon: User,
       title: 'Personal Loans',
-      description: 'Flexible personal loans for any life event, from $1,000 to $100,000',
+      description: 'Flexible personal loans for any life event, from ₹1,00,000 to ₹50,00,000',
       features: ['No collateral required', 'Competitive rates', 'Quick approval'],
-      rate: '6.99%',
-      term: 'Up to 7 years'
+      rate: '10.99%',
+      term: 'Up to 5 years'
     },
     {
       icon: Building2,
       title: 'Business Loans',
       description: 'Fuel your business growth with our comprehensive business financing',
       features: ['Term loans', 'Lines of credit', 'Equipment financing'],
-      rate: '5.49%',
-      term: 'Up to 10 years'
+      rate: '9.49%',
+      term: 'Up to 7 years'
     },
     {
       icon: Home,
       title: 'Home Improvement',
       description: 'Transform your home with our specialized home improvement loans',
       features: ['No home equity required', 'Fixed rates', 'Same-day decisions'],
-      rate: '7.49%',
-      term: 'Up to 12 years'
+      rate: '8.99%',
+      term: 'Up to 10 years'
     },
     {
       icon: Car,
       title: 'Auto Loans',
       description: 'Drive your dream car with our competitive auto financing options',
       features: ['New & used cars', 'Refinancing available', 'Pre-approval'],
-      rate: '4.99%',
-      term: 'Up to 8 years'
+      rate: '7.99%',
+      term: 'Up to 7 years'
     },
     {
       icon: GraduationCap,
       title: 'Student Loans',
       description: 'Invest in your education with our student-friendly loan options',
       features: ['Flexible repayment', 'Grace periods', 'No prepayment penalties'],
-      rate: '5.99%',
-      term: 'Up to 20 years'
+      rate: '9.99%',
+      term: 'Up to 15 years'
     },
     {
       icon: CreditCard,
       title: 'Debt Consolidation',
       description: 'Simplify your finances by consolidating multiple debts into one',
       features: ['Lower monthly payments', 'Single payment', 'Improve credit score'],
-      rate: '6.49%',
-      term: 'Up to 7 years'
+      rate: '11.49%',
+      term: 'Up to 5 years'
     }
   ];
 

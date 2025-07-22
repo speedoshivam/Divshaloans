@@ -6,43 +6,39 @@ const Testimonials = () => {
 
   const testimonials = [
     {
-      name: 'Sarah Johnson',
+      name: 'Priya Sharma',
       role: 'Small Business Owner',
-      location: 'Austin, TX',
+      location: 'Mumbai, MH',
       rating: 5,
-      text: 'LendFlow made expanding my bakery possible. The application process was incredibly smooth, and I received my business loan approval within 24 hours. Their customer service team guided me through every step.',
       text: 'DivshaLoans made expanding my bakery possible. The application process was incredibly smooth, and I received my business loan approval within 24 hours. Their customer service team guided me through every step.',
-      amount: '$75,000',
+      amount: '₹75,00,000',
       purpose: 'Business Expansion'
     },
     {
-      name: 'Michael Chen',
+      name: 'Rahul Verma',
       role: 'Software Engineer',
-      location: 'San Francisco, CA',
+      location: 'Bengaluru, KA',
       rating: 5,
-      text: 'I needed to consolidate my credit card debt, and LendFlow offered me the best rate I could find. The online application was straightforward, and the money was in my account the next day.',
       text: 'I needed to consolidate my credit card debt, and DivshaLoans offered me the best rate I could find. The online application was straightforward, and the money was in my account the next day.',
-      amount: '$25,000',
+      amount: '₹25,00,000',
       purpose: 'Debt Consolidation'
     },
     {
-      name: 'Emily Rodriguez',
+      name: 'Anjali Singh',
       role: 'Teacher',
-      location: 'Denver, CO',
+      location: 'Delhi',
       rating: 5,
-      text: 'As a first-time homebuyer, I was nervous about the loan process. LendFlow\'s team was patient, transparent, and helped me secure a great rate for my home improvement project.',
-      text: 'As a first-time homebuyer, I was nervous about the loan process. DivshaLoans\'s team was patient, transparent, and helped me secure a great rate for my home improvement project.',
-      amount: '$50,000',
+      text: 'As a first-time homebuyer, I was nervous about the loan process. DivshaLoans team was patient, transparent, and helped me secure a great rate for my home improvement project.',
+      amount: '₹50,00,000',
       purpose: 'Home Improvement'
     },
     {
-      name: 'David Thompson',
+      name: 'Vikram Patel',
       role: 'Marketing Director',
-      location: 'Chicago, IL',
+      location: 'Ahmedabad, GJ',
       rating: 5,
-      text: 'The personal loan from LendFlow helped me through a difficult time. No hidden fees, competitive rates, and the fastest approval I\'ve ever experienced. Highly recommend!',
-      text: 'The personal loan from DivshaLoans helped me through a difficult time. No hidden fees, competitive rates, and the fastest approval I\'ve ever experienced. Highly recommend!',
-      amount: '$15,000',
+      text: 'The personal loan from DivshaLoans helped me through a difficult time. No hidden fees, competitive rates, and the fastest approval I have ever experienced. Highly recommend!',
+      amount: '₹15,00,000',
       purpose: 'Personal Loan'
     }
   ];

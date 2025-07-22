@@ -48,7 +48,7 @@ const Calculator = () => {
               <div>
                 <label className="flex justify-between text-sm font-medium text-gray-700 mb-3">
                   <span>Loan Amount</span>
-                  <span className="text-blue-600 font-bold">${loanAmount.toLocaleString()}</span>
+                  <span className="text-blue-600 font-bold">₹{loanAmount.toLocaleString('en-IN')}</span>
                 </label>
                 <input
                   type="range"
@@ -60,8 +60,8 @@ const Calculator = () => {
                   className="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer slider"
                 />
                 <div className="flex justify-between text-xs text-gray-500 mt-1">
-                  <span>$1K</span>
-                  <span>$100K</span>
+                  <span>₹1L</span>
+                  <span>₹1Cr</span>
                 </div>
               </div>
 
@@ -128,21 +128,21 @@ const Calculator = () => {
                     </div>
                   </div>
                   <div className="text-2xl font-bold text-blue-600">
-                    ${monthlyPayment.toLocaleString('en-US', { maximumFractionDigits: 0 })}
+                    ₹{monthlyPayment.toLocaleString('en-IN', { maximumFractionDigits: 0 })}
                   </div>
                 </div>
 
                 <div className="grid grid-cols-2 gap-4">
                   <div className="text-center p-4 bg-gray-50 rounded-xl">
                     <div className="text-2xl font-bold text-gray-900 mb-1">
-                      ${totalPayment.toLocaleString('en-US', { maximumFractionDigits: 0 })}
+                      ₹{totalPayment.toLocaleString('en-IN', { maximumFractionDigits: 0 })}
                     </div>
                     <div className="text-sm text-gray-600">Total Payment</div>
                   </div>
                   
                   <div className="text-center p-4 bg-gray-50 rounded-xl">
                     <div className="text-2xl font-bold text-gray-900 mb-1">
-                      ${totalInterest.toLocaleString('en-US', { maximumFractionDigits: 0 })}
+                      ₹{totalInterest.toLocaleString('en-IN', { maximumFractionDigits: 0 })}
                     </div>
                     <div className="text-sm text-gray-600">Total Interest</div>
                   </div>
