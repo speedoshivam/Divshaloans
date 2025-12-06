@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Shield, Clock, DollarSign, Users, Award, Headphones } from 'lucide-react';
+import { Shield, Clock, IndianRupee, Users, Award, Headphones } from 'lucide-react';
 
 const Benefits = () => {
   const [counters, setCounters] = useState({
@@ -68,7 +68,7 @@ const Benefits = () => {
       color: 'from-blue-500 to-blue-600'
     },
     {
-      icon: DollarSign,
+      icon: IndianRupee,
       title: 'Competitive Rates',
       description: 'Industry-leading rates starting from 9.99% per annum for qualified borrowers.',
       color: 'from-emerald-500 to-emerald-600'
