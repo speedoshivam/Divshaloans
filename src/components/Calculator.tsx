@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Calculator as CalculatorIcon, TrendingUp, DollarSign } from 'lucide-react';
+import { Calculator as CalculatorIcon, TrendingUp, IndianRupee } from 'lucide-react';
 
 const Calculator = () => {
   const [loanAmount, setLoanAmount] = useState(25000);
@@ -121,7 +121,7 @@ const Calculator = () => {
               <div className="space-y-6">
                 <div className="flex items-center justify-between p-4 bg-gradient-to-r from-blue-50 to-emerald-50 rounded-xl">
                   <div className="flex items-center">
-                    <DollarSign size={24} className="text-blue-600 mr-3" />
+                    <IndianRupee size={24} className="text-blue-600 mr-3" />
                     <div>
                       <div className="font-semibold text-gray-900">Monthly Payment</div>
                       <div className="text-sm text-gray-600">Principal + Interest</div>
